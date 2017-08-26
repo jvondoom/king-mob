@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An Introduction to the Journal of the King of the Mob"
+title:  "An Introduction to King Mob's Journal"
 date:   2017-08-26 00:00:00 -0600
 author: J. von Doom
 keywords: king mob short story introduction journal

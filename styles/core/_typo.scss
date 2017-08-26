@@ -1,0 +1,22 @@
+// Typo
+// -------------------------
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: $font-bold;
+}
+
+p {
+  font-family: $font-regular;
+}
+
+a {
+  color: $color-monarch;
+  font-family: $font-bold;
+
+  &:visited {
+    color: $color-monarch;
+  }
+}

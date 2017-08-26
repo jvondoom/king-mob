@@ -2,4 +2,9 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+//Base theme style
 @import "minima";
+
+
+//Theme overrides
+@import "../styles/styles";

@@ -1,0 +1,18 @@
+//
+// Mixins
+// --------------------------------------------------
+
+@mixin fontFace($family, $style: normal, $weight: normal) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$font-url}/#{$family}.eot');
+    src: url('#{$font-url}/#{$family}.eot?#iefix') format('embedded-opentype'),
+         url('#{$font-url}/#{$family}.woff2') format('woff2'),
+         url('#{$font-url}/#{$family}.woff') format('woff'),
+         url('#{$font-url}/#{$family}.ttf') format('truetype'),
+         url('#{$font-url}/#{$family}.svg##{$family}') format('svg');
+
+    font-style: $style;
+    font-weight: $weight;
+  }
+}

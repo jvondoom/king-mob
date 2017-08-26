@@ -1,0 +1,18 @@
+//
+// Typography
+// --------------------------------------------------
+
+$font-url: '../fonts';
+
+$fonts: (
+  'ACaslonPro-Bold',
+  'ACaslonPro-BoldItalic',
+  'ACaslonPro-Italic',
+  'ACaslonPro-Regular',
+  'ACaslonPro-Semibold',
+  'ACaslonPro-SemiboldItalic',
+);
+
+@each $family in $fonts {
+  @include fontFace($family);
+}
