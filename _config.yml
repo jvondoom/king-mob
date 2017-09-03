@@ -38,4 +38,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: /blog/:year/:month/:day/:title
+permalink: /blog/:year/:month/:day/:title.html
