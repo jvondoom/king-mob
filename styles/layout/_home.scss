@@ -1,0 +1,33 @@
+.p-home {
+  span {
+    display: inline-block;
+  }
+
+  .page-heading {
+    font-family: $font-nobel;
+    font-size: 25px;
+    line-height: 25px;
+  }
+
+  .post-link {
+    margin-bottom: 10px;
+  }
+
+  .meta-wrapper {
+    border-top: 2px dotted $color-gallery;
+  }
+
+  .post-category {
+    border-right: 1px solid $color-gray;
+    color: $color-gray;
+    font-size: 14px;
+    line-height: 14px;
+    padding-right: 5px;
+    font-family: $font-nobel;
+  }
+
+  .post-meta {
+    color: $color-gray;
+    padding-left: 5px;
+  }
+}

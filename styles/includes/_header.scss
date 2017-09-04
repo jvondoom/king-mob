@@ -1,0 +1,30 @@
+header {
+  border-bottom: 1px solid $color-gallery;
+  border-top: 3px solid $color-black;
+
+  .header-wrapper {
+    align-items: center;
+    display: flex;
+  }
+
+  .title {
+    width: 70%;
+
+    a {
+      color: $color-black;
+      font-family: $font-didot;
+      font-size: 36px;
+    }
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 30%;
+
+    a {
+      color: $color-black;
+      font-size: 18px;
+    }
+  }
+}
