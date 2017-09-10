@@ -3,6 +3,9 @@ $icon-font-path: '../fonts/';
 //Bootstrap
 @import 'bootstrap';
 
+//base
+@import '../styles/core/base';
+
 // Site Variables
 @import '../styles/core/variables';
 
@@ -15,8 +18,9 @@ $icon-font-path: '../fonts/';
 @import '../styles/core/typo';
 
 // Layout
-@import '../styles/layout/post';
 @import '../styles/layout/home';
+@import '../styles/layout/post';
+@import '../styles/layout/page';
 
 // Includes
 @import '../styles/includes/header';

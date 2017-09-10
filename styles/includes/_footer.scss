@@ -1,4 +1,12 @@
 footer {
   border-top: 2px solid $color-black;
   padding-top: 15px;
+
+  .social-media-list {
+    margin-left: 0;
+
+    .icon {
+      padding-right: 5px;
+    }
+  }
 }
