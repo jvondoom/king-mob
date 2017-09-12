@@ -16,7 +16,7 @@
 title: Le Journal du King Mob
 email: phazhion@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Stories worth to be written, not to be read.
+  Ideas que merecen ser escritas, no leídas.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://kingmob.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hmkingmob
@@ -38,4 +38,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-permalink: /blog/:year/:month/:day/:title.html
+permalink: /:title.html
