@@ -5,7 +5,7 @@ date:   2017-10-3 00:00:00 -0600
 author: J. von Doom 
 categories: Short&nbsp;Story 
 keywords: king mob short story journal meeting 
-description: When King Mob met her 
+description: A story about what happened to King Mob during a particular heavy rain
 --- 
 
 It was raining heavily that night. The kind of rain that is passive enough to wash all the willing of step out of bed; but strong enough for everyone to get soaked after walking a few blocks. The thunders were roaring across the streets, while the mob bumped into each other because they were too focused on their umbrellas to avoid it. A typical thing to see these time of the year.
