@@ -26,6 +26,11 @@ a {
   }
 }
 
+b,
 strong {
   font-family: $font-bold;
+}
+
+em {
+  font-family: $font-italic;
 }
