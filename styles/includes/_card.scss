@@ -1,5 +1,9 @@
 .card-wrapper {
   display: flex;
+
+  @include breakpoint('phone') {
+    flex-wrap: wrap;
+  }
 }
 
 .card {
@@ -28,5 +32,10 @@
         content: ', '
       }
     }
+  }
+
+  @include breakpoint('phone') {
+    margin-bottom: 10px;
+    width: 100%;
   }
 }
