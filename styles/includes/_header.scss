@@ -1,6 +1,5 @@
 header {
-  border-bottom: 1px solid $color-gallery;
-  border-top: 3px solid $color-black;
+  border: 0;
 
   .header-wrapper {
     align-items: center;
@@ -26,6 +25,11 @@ header {
       color: $color-black;
       font-size: 18px;
       font-family: $font-nobel;
+      margin-right: 20px;
+
+      &:first-child {
+        margin-right: 0;
+      }
     }
   }
 }
