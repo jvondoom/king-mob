@@ -1,0 +1,41 @@
+.card-wrapper {
+  display: flex;
+
+  @include breakpoint('phone') {
+    flex-wrap: wrap;
+  }
+}
+
+.card {
+  background-color: $color-alabaster;
+  border: 2px solid $color-gallery;
+  margin: 0 5px;
+  padding: 10px 20px;
+
+  h4 {
+    margin-bottom: 5px;
+    margin-top: 0;
+    max-width: 250px;
+    min-height: 40px;
+  }
+
+  ul {
+    list-style: circle  outside none;
+    max-width: 300px;
+    padding-left: 16px;
+  }
+
+  .company {
+    border-bottom: 1px solid $color-gallery;
+    span {
+      &:before {
+        content: ', '
+      }
+    }
+  }
+
+  @include breakpoint('phone') {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}

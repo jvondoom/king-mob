@@ -25,3 +25,12 @@ a {
     color: $color-monarch;
   }
 }
+
+b,
+strong {
+  font-family: $font-bold;
+}
+
+em {
+  font-family: $font-italic;
+}
