@@ -1,5 +1,10 @@
 import React from "react"
 
+import Header from "./header"
+
 export default ({ children }) => (
-  <div className="container mx-auto">{children}</div>
+  <div>
+    <Header />
+    <main className="container mx-auto">{children}</main>
+  </div>
 )
