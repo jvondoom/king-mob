@@ -35,7 +35,7 @@ const Footer = props => {
         </a>
       </div>
       <div className="tagline flex-grow">
-        <p>Ideas worth to be writter, not read.</p>
+        <p>Ideas worth to be written, not read.</p>
       </div>
     </footer>
   )
