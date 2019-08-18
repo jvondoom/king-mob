@@ -3,8 +3,8 @@ import React from "react"
 import Header from "./header"
 
 export default ({ children }) => (
-  <div>
+  <div className="container mx-auto">
     <Header />
-    <main className="container mx-auto">{children}</main>
+    <main className="mb-4">{children}</main>
   </div>
 )

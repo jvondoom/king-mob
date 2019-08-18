@@ -14,13 +14,11 @@ const Header = props => {
   })
 
   return (
-    <header className="mb-4 border-b border-dotted border-gray-700">
-      <div className="container mx-auto flex">
-        <h2 className="flex-grow text-4xl">
-          <Link to="/">King Mob's Journal</Link>
-        </h2>
-        <ul className="flex flex-grow-0 justify-center items-center">{nav}</ul>
-      </div>
+    <header className="mb-4 flex border-b border-dotted border-gray-700">
+      <h2 className="flex-grow text-4xl">
+        <Link to="/">King Mob's Journal</Link>
+      </h2>
+      <ul className="flex flex-grow-0 justify-center items-center">{nav}</ul>
     </header>
   )
 }
