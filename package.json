@@ -10,7 +10,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "standard",
-    "testFix": "standard -fix"
+    "testFix": "standard --fix"
   },
   "repository": {
     "type": "git",
