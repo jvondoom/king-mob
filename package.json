@@ -9,7 +9,8 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "standard"
+    "test": "standard",
+    "testFix": "standard -fix"
   },
   "repository": {
     "type": "git",
