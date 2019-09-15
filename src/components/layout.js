@@ -1,12 +1,12 @@
-import React from "react"
+import React from 'react'
 
-import Header from "./header"
-import Footer from "./footer"
+import Header from './header'
+import Footer from './footer'
 
 export default ({ children }) => (
-  <div className="container mx-auto">
+  <div className='container mx-auto'>
     <Header />
-    <main className="mb-4">{children}</main>
+    <main className='mb-4'>{children}</main>
     <Footer />
   </div>
 )

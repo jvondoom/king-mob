@@ -1,10 +1,10 @@
 module.exports = [
   {
-    link: "/resume",
-    text: "Resume",
+    link: '/resume',
+    text: 'Resume'
   },
   {
-    link: "/about",
-    text: "About",
-  },
+    link: '/about',
+    text: 'About'
+  }
 ]
